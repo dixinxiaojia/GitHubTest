@@ -1,0 +1,371 @@
+/* 整体定义 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+    /* height: 2000px; */
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 清除浮动:after 伪元素法 */
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* IE6、7 专有 */
+    *zoom: 1;
+}
+
+
+/* 头部 */
+.header {
+    height: 42px;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+    margin-right: 66px;
+}
+
+.header .nav li {
+    float: left;
+}
+
+.header .nav li a {
+    display: inline-block;
+    height: 42px;
+    padding: 0 10px;
+    margin: 0 11px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.header .nav li a:hover {
+    color: #00a4ff;
+    border-bottom: 2px solid #00a4ff;
+}
+
+.header .search {
+    float: left;
+    height: 42px;
+    width: 412px;
+    /* background-color: skyblue; */
+    margin-left: 70px;
+}
+
+.header .search input {
+    float: left;
+    height: 40px;
+    width: 345px;
+    border: 1px solid #00a4ff;
+    background-color: #f3f5f7;
+    border-right: 0;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.header .search button {
+    float: left;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-left: 0;
+}
+
+.header .user {
+
+    float: right;
+    height: 42px;
+}
+
+.header .user img {
+    float: left;
+    height: 42px;
+}
+
+.header .user p {
+    float: right;
+    margin-right: 36px;
+    margin-left: 6px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 42px;
+}
+
+/* 横幅(banner) */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 420px;
+    background: url(images/banner2.png) no-repeat top center;
+}
+
+.banner .w .subnav {
+    float: left;
+    width: 190px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+}
+
+.banner .w .subnav ul li {
+    height: 44px;
+    margin: 0 20px;
+    line-height: 44px;
+    /* background-color: pink; */
+}
+
+.banner .w .subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .w .subnav ul li a span {
+    float: right;
+}
+
+.banner .w .subnav ul li a:hover {
+    color: #00a4ff;
+
+}
+
+.banner .w .course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.banner .w .course-head {
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner .w .course-body ul li {
+    /* height: 60px; */
+    margin: 0 20px;
+    padding: 12px 0;
+    border-bottom: 1px solid #efefef;
+    /* background-color: pink; */
+}
+
+.banner .w .course-body ul li h3 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.banner .w .course-body ul li h3 span {
+    font-size: 14px;
+}
+
+.banner .w .course-body ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.banner .w .course-foot {
+    height: 38px;
+    width: 198px;
+    margin: 6px 15px;
+    border: 1px solid #22b0ff;
+    text-align: center;
+    line-height: 38px;
+
+}
+
+.banner .w .course-foot a {
+    color: #00a4ff;
+}
+
+/* 精品推荐小模块 */
+.goods {
+    height: 60px;
+    margin-top: 8px;
+    background-color: #fff;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+    line-height: 60px;
+}
+
+.goods h4 {
+    float: left;
+    margin: 0 35px;
+    color: #00a4ff;
+    font-size: 16px;
+}
+
+.goods .goods-item {
+    float: left;
+}
+
+.goods .goods-item ul li {
+    display: inline-block;
+
+}
+
+.goods .goods-item ul li a {
+    padding: 0 35px;
+    border-left: 1px solid #bfbfbf;
+    font-size: 16px;
+    color: #050505;
+}
+
+
+.goods .mod {
+    float: right;
+    margin-right: 26px;
+    color: #00a4ff;
+    font-size: 14px;
+}
+
+/* 精品推荐大模块 */
+.box {
+    margin-top: 38px;
+}
+
+.box-hd {
+    /* background-color: pink; */
+    height: 40px;
+}
+
+.box-hd h4 {
+    float: left;
+    color: #494949;
+    font-size: 20px;
+}
+
+.box-hd a {
+    float: right;
+    color: #a5a5a5;
+    font-size: 12px;
+    margin: 8px 32px 0 0;
+}
+
+
+.box-bd ul {
+    width: 1215px;
+    /* background-color: pink; */
+}
+
+.box-bd ul li {
+    float: left;
+    height: 270px;
+    width: 228px;
+    background-color: #fff;
+    margin: 0 15px 15px 0;
+}
+
+.box-bd ul li img {
+    width: 100%;
+}
+
+.box-bd ul li h5 {
+    margin: 25px 20px 12px 20px;
+    color: #050505;
+    font-size: 14px;
+}
+
+.box-bd ul li div {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.box-bd ul li span {
+    color: #ff7c2d;
+}
+
+/* 底部模块 */
+.footer {
+    height: 265px;
+    background-color: #fff;
+    padding-top: 35px;
+}
+
+.footer .w {
+    height: 265px;
+    /* background-color: pink; */
+}
+
+.footer .w .copyright {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer .w .copyright p {
+    color: #666;
+    font-size: 12px;
+    margin: 25px 0 15px 0;
+}
+
+/* 120-36 */
+.footer .w .copyright a {
+    display: inline-block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    color: #00a4ff;
+    line-height: 34px;
+    text-align: center;
+}
+
+.footer .w .links {
+    float: right;
+    margin-right: 30px;
+}
+
+.footer .w .links dl {
+    float: left;
+    padding-left: 120px;
+}
+
+.footer .w .links dt {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer .w .links dd {
+    height: 25px;
+    line-height: 25px;
+}
+
+.footer .w .links dd a {
+    font-size: 12px;
+    color: #333333;
+
+}

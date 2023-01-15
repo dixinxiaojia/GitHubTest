@@ -1,0 +1,166 @@
+/* 头部模块 修改*/
+.header .sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    width: 72px;
+    height: 32px;
+    border-left: 2px solid #c81523;
+    line-height: 30px;
+}
+
+.header .sk img {
+    padding-left: 14px;
+}
+
+/* nav导航模块 */
+.nav {
+    overflow: hidden;
+}
+
+.nav .sk_list {
+    float: left;
+    line-height: 48px;
+}
+
+.nav .sk_list ul li {
+    float: left;
+
+}
+
+.nav .sk_list ul li a {
+    padding: 0 28px;
+    font-size: 16px;
+    color: #000;
+}
+
+.nav .sk_con {
+    float: left;
+    line-height: 50px;
+}
+
+.nav .sk_con ul li {
+    float: left;
+    position: relative;
+}
+
+.nav .sk_con ul li a {
+    padding: 0 22px;
+    font-size: 14px;
+}
+
+.nav .sk_con ul li:last-child a::after {
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* 列表页主体部分 */
+.sk_hd {
+    height: 118px;
+    margin-bottom: 25px;
+}
+
+.sk_hd img {
+    height: 118px;
+    width: 1200px;
+}
+
+.sk_bd ul li {
+    width: 290px;
+    height: 460px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 15px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li .sell_hd {
+    height: 410px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+.sk_bd ul li:hover .sell_hd {
+    border-color: #e12228;
+}
+
+.sk_bd ul li .sell_hd a {
+    display: block;
+    text-align: center;
+}
+
+.sk_bd ul li .sell_hd p {
+    margin: 8px 12px 10px 12px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sk_bd ul li .sell_hd .price {
+    margin: 0 12px 10px 12px;
+    font-size: 22px;
+    color: #e12228;
+    line-height: 22px;
+}
+
+.sk_bd ul li .sell_hd .price i {
+    margin-left: 12px;
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .sell_hd .sell {
+    margin: 0 12px;
+}
+
+.sk_bd ul li .sell_hd .sell h5 {
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+}
+
+/* 进度条/滚动条 */
+.sk_bd ul li .sell_hd .sell .bar {
+    float: left;
+    width: 130px;
+    height: 12px;
+    padding: 1px;
+    margin: 2px 8px 0 8px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+}
+
+.sk_bd ul li .sell_hd .sell .bar .bar_in {
+    height: 100%;
+    width: 87%;
+    border-radius: 6px;
+    background-color: #ed282e;
+}
+
+.sk_bd ul li .sell_hd .sell span {
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.sk_bd ul li .sell_hd .sell span i {
+    font-size: 16px;
+    color: #e12228;
+}
+
+.sk_bd ul li .sell_bd a {
+    display: block;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    color: #fff;
+}

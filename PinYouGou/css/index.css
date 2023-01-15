@@ -1,0 +1,393 @@
+/* main 主体模块 */
+.main {
+    width: 982px;
+    height: 455px;
+    /* background-color: pink; */
+    margin: 13px 0 0 220px;
+}
+
+/* focus 焦点图模块 */
+.main .focus {
+    float: left;
+    width: 722px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+/* newsflash 新闻快报模块 */
+.main .newsflash {
+    float: right;
+    width: 252px;
+    height: 100%;
+    /* background-color: skyblue; */
+}
+
+.main .newsflash .news {
+    height: 166px;
+    /* background-color: pink; */
+    border: 1px solid #e4e4e4;
+}
+
+.main .newsflash .news-hd {
+    height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+    text-align: center;
+}
+
+.main .newsflash .news-hd h5 {
+    float: left;
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.main .newsflash .news-hd div {
+    position: relative;
+    float: right;
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+.main .newsflash .news-hd a::after {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 14px;
+
+}
+
+.main .newsflash .new-bd {
+    margin: 6px 20px 0 18px;
+}
+
+.main .newsflash .new-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main .newsflash .lifeservice {
+    overflow: hidden;
+    height: 210px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.main .newsflash .lifeservice ul {
+    width: 252px;
+}
+
+.main .newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.main .newsflash .lifeservice ul li i {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(2) i {
+    background-position: -78px -16px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(3) i {
+    background-position: -140px -16px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(4) i {
+    background-position: -202px -16px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(5) i {
+    background-position: -16px -88px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(6) i {
+    background-position: -78px -88px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(7) i {
+    background-position: -140px -88px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(8) i {
+    background-position: -202px -88px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(9) i {
+    background-position: -16px -158px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(10) i {
+    background-position: -78px -158px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(11) i {
+    background-position: -140px -155px;
+}
+
+.main .newsflash .lifeservice ul li:nth-child(12) i {
+    background-position: -202px -158px;
+}
+
+.main .newsflash .bargain {
+    margin-top: 3px;
+}
+
+/* recom 推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    height: 100%;
+    width: 206px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom .recom_bd {
+    float: left;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+    position: relative;
+}
+
+.recom .recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom .recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    content: '';
+    height: 144px;
+    width: 2px;
+    background-color: #ddd;
+}
+
+/* floor 楼层区模块 */
+.col_210 {
+    width: 210px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_220 {
+    width: 220px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+/* floor 楼层区 第一楼 家用电器模块 */
+.floor .jiadian .box_hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+
+.floor .jiadian .box_hd .tab_list {
+    float: right;
+}
+
+.floor .jiadian .box_hd .tab_list ul li {
+    float: left;
+    line-height: 28px;
+}
+
+.floor .jiadian .box_hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .jiadian .box_bd {
+    height: 362px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item>div {
+    float: left;
+    height: 362px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(1) {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(1) ul {
+    margin-left: 12px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(1) ul li {
+    float: left;
+    height: 34px;
+    width: 87px;
+    margin-right: 12px;
+    border-bottom: 2px solid #ededed;
+    line-height: 32px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(2) a img {
+    height: 362px;
+    width: 329px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(3) {
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(3) img {
+    width: 220px;
+    height: 180px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .a_bottom {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(4) {
+    border: 1px solid #ededed;
+    border-top: 0;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(4) img {
+    width: 219px;
+    height: 361px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(5) {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item div:nth-child(5) img {
+    width: 219px;
+    height: 180px;
+}
+
+/* floor 楼层区 第二楼 手机通讯模块 */
+.floor .shouji .box_hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .shouji .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+
+.floor .shouji .box_hd .tab_list {
+    float: right;
+}
+
+.floor .shouji .box_hd .tab_list ul li {
+    float: left;
+    line-height: 28px;
+}
+
+.floor .shouji .box_hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .shouji .box_bd {
+    height: 362px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item>div {
+    float: left;
+    height: 362px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(1) {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(1) ul {
+    margin-left: 12px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(1) ul li {
+    float: left;
+    height: 34px;
+    width: 87px;
+    margin-right: 12px;
+    border-bottom: 2px solid #ededed;
+    line-height: 32px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(2) a img {
+    height: 362px;
+    width: 329px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(3) {
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(3) img {
+    width: 220px;
+    height: 180px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item .a_bottom {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(4) {
+    border: 1px solid #ededed;
+    border-top: 0;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(4) img {
+    width: 219px;
+    height: 361px;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(5) {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .shouji .box_bd .tab_content .tab_list_item div:nth-child(5) img {
+    width: 219px;
+    height: 180px;
+}

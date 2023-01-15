@@ -1,0 +1,152 @@
+/* 头部 */
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header .logo {
+    padding: 21px 0 0 4px;
+}
+
+/* 注册主体模块 */
+.registerarea {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    height: 41px;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 20px;
+    background-color: #ececec;
+    color: #333333;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea .reg_form {
+    width: 600px;
+    margin: 56px auto;
+}
+
+.registerarea .reg_form ul li {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.registerarea .reg_form ul li label {
+    display: inline-block;
+    width: 96px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.registerarea .reg_form ul li .inp {
+    width: 240px;
+    height: 37px;
+    border: 1px solid #999999;
+    margin-right: 10px;
+}
+
+.registerarea .reg_form ul li .error {
+    display: inline-block;
+    font-size: 12px;
+    color: #df3033;
+}
+
+.registerarea .reg_form ul li .error .error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -4px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.registerarea .reg_form ul li .success {
+    display: inline-block;
+    font-size: 12px;
+    color: green;
+}
+
+.registerarea .reg_form ul li .success .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.registerarea .reg_form ul .safe {
+    height: 14px;
+    line-height: 14px;
+    margin-top: -10px;
+    padding-left: 172px;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.registerarea .reg_form ul .safe em {
+    padding: 0 11px;
+    color: #fff;
+}
+
+.registerarea .reg_form ul .safe .weak {
+    margin-left: 10px;
+    background-color: #de1111;
+}
+
+.registerarea .reg_form ul .safe .medium {
+    background-color: #f79100;
+}
+
+.registerarea .reg_form ul .safe .strong {
+    background-color: #40b83f;
+}
+
+.registerarea .reg_form ul .agree {
+    margin-left: 100px;
+
+}
+
+.registerarea .reg_form ul .agree .che {
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.registerarea .reg_form ul .agree a {
+    color: #1ba1e6;
+}
+
+.registerarea .reg_form ul .sub {
+    width: 200px;
+    height: 34px;
+    margin: 15px 0 0 110px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer .mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer .mod_copyright .links a {
+    padding: 0 15px;
+}
+
+footer .mod_copyright .links {
+    margin-bottom: 10px;
+}
+
+footer .mod_copyright .copyright {
+    line-height: 20px;
+}
